@@ -1,0 +1,21 @@
+{
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "description": "Road Ninja Chrome Extension",
+  "icons": {
+    "128": "icon.png"
+  },
+  "name": "Road Ninja Chrome Extension",
+  "permissions": [
+    "alarms",
+    "tabs",
+    "webNavigation"
+   ],
+  "version": "1.0.0",
+  "manifest_version": 2
+}
